@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support Center - HostNexus</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">HostNexus</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="hosting.html">Hosting Plans</a></li>
+                <li><a href="domains.html">Domains</a></li>
+                <li><a href="ssl.html">SSL Certificates</a></li>
+                <li><a href="affiliate.html">Affiliate Program</a></li>
+                <li><a href="support.html">Support</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="knowledgebase.html">Knowledge Base</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section">
+            <div class="container">
+                <h2>HostNexus Support Center</h2>
+                <p>Welcome to our support hub! Find answers, submit requests, or chat with our team.</p>
+
+                <section id="support-options" class="section">
+                    <div class="support-options-grid">
+                        <div class="support-option-item">
+                            <img src="images/knowledgebase-icon.png" alt="Knowledge Base" class="support-icon">
+                            <h3>Knowledge Base</h3>
+                            <p>Browse our comprehensive library of articles, tutorials, and FAQs to find quick answers to common questions.</p>
+                            <form class="knowledgebase-search-form">
+                                <input type="search" placeholder="Search Knowledge Base (e.g., 'email setup')" class="kb-search-input">
+                                <button type="submit" class="cta-button-secondary">Search KB</button>
+                            </form>
+                            <a href="knowledgebase.html" class="cta-button" style="margin-top:15px;">Browse Knowledge Base</a>
+                        </div>
+
+                        <div class="support-option-item">
+                            <img src="images/ticket-icon.png" alt="Submit Ticket" class="support-icon">
+                            <h3>Submit a Ticket</h3>
+                            <p>For specific issues or account-related inquiries, submit a support ticket, and our team will get back to you promptly.</p>
+                            <a href="dashboard.html?tab=tickets#submit-ticket" class="cta-button">Open a Support Ticket</a>
+                            <p class="support-note">Login required. Track your ticket status in your client dashboard.</p>
+                        </div>
+
+                        <div class="support-option-item">
+                            <img src="images/chat-icon.png" alt="Live Chat" class="support-icon">
+                            <h3>Live Chat</h3>
+                            <p>Need immediate assistance? Chat live with one of our support agents. Available during business hours.</p>
+                            <button id="liveChatButton" class="cta-button">Start Live Chat</button>
+                            <p id="chatStatus" class="support-note">Chat Offline (Mon-Fri, 9am-5pm WAT)</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="popular-kb-articles" class="section section-light">
+                    <h3>Popular Knowledge Base Articles</h3>
+                    <div class="popular-articles-grid">
+                        <a href="knowledgebase.html#article1" class="popular-article-item">
+                            <img src="images/article-email.png" alt="Email Setup">
+                            <h4>How to Set Up Your Email Account</h4>
+                            <p>Step-by-step guide for configuring your email on various clients.</p>
+                        </a>
+                        <a href="knowledgebase.html#article2" class="popular-article-item">
+                             <img src="images/article-cpanel.png" alt="cPanel Guide">
+                            <h4>Getting Started with cPanel</h4>
+                            <p>An overview of cPanel features and how to navigate them.</p>
+                        </a>
+                        <a href="knowledgebase.html#article3" class="popular-article-item">
+                             <img src="images/article-wordpress.png" alt="WordPress Install">
+                            <h4>Installing WordPress Manually</h4>
+                            <p>Learn how to install WordPress on your hosting account.</p>
+                        </a>
+                        <a href="knowledgebase.html#article4" class="popular-article-item">
+                            <img src="images/article-billing.png" alt="Billing Info">
+                            <h4>Understanding Your Billing Cycle</h4>
+                            <p>Information about invoices, payments, and renewals.</p>
+                        </a>
+                    </div>
+                    <div style="text-align:center; margin-top:30px;">
+                        <a href="knowledgebase.html" class="cta-button-secondary">View All Articles</a>
+                    </div>
+                </section>
+
+                 <section id="contact-info-support" class="section">
+                    <h3>Other Ways to Reach Us</h3>
+                    <div class="contact-methods">
+                        <div class="contact-method-item">
+                            <h4><img src="images/email-icon-small.png" alt="Email"> Email Support</h4>
+                            <p>For non-urgent matters, email us at <a href="mailto:support@hostnexus.com">support@hostnexus.com</a>.</p>
+                        </div>
+                        <div class="contact-method-item">
+                             <h4><img src="images/phone-icon-small.png" alt="Phone"> Phone Support (Sales Only)</h4>
+                            <p>Call us for sales inquiries: <a href="tel:+234800HOSTNEXUS">+234 800 HOSTNEXUS</a> (Mon-Fri, 9am-5pm).</p>
+                        </div>
+                         <div class="contact-method-item">
+                             <h4><img src="images/social-icon-small.png" alt="Social Media"> Social Media</h4>
+                            <p>Connect with us on <a href="#" target="_blank">Twitter</a> or <a href="#" target="_blank">Facebook</a> for updates and quick questions.</p>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 HostNexus. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
